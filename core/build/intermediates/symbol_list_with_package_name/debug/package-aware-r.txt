@@ -1,0 +1,5 @@
+com.andi.amov.core
+id ivPoster
+id rBar
+id tv_title
+layout item_movie
