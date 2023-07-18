@@ -6,21 +6,16 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import androidx.fragment.app.viewModels
-import androidx.recyclerview.widget.GridLayoutManager
-import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.StaggeredGridLayoutManager
 import com.andi.amov.core.data.Resource
 import com.andi.amov.core.ui.MovieAdapter
 import com.andi.amov.databinding.FragmentHomeBinding
 import com.andi.amov.ui.detail.DetailActivity
-import com.andi.amov.ui.detail.DetailMovieViewModel
-import dagger.hilt.android.AndroidEntryPoint
+import org.koin.androidx.viewmodel.ext.android.viewModel
 
-@AndroidEntryPoint
+
 class HomeFragment : Fragment() {
-    private val homeViewModel: HomeViewModel by viewModels()
+    private val homeViewModel: HomeViewModel by viewModel()
     private var _binding: FragmentHomeBinding? = null
 
     // This property is only valid between onCreateView and

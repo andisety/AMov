@@ -2,9 +2,8 @@ package com.andi.amov.core.domain.usecase
 
 import com.andi.amov.core.domain.model.Movie
 import com.andi.amov.core.domain.repository.IMovieRepository
-import javax.inject.Inject
 
-class MovieInteractor @Inject constructor(private val movieRepository: IMovieRepository): MovieUseCase {
+class MovieInteractor  (private val movieRepository: IMovieRepository): MovieUseCase {
 
     override fun getAllMovie() = movieRepository.getAllTourism()
 

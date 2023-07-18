@@ -1,23 +1,22 @@
 package com.andi.amov.ui.detail
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.activity.viewModels
+import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import com.andi.amov.R
 import com.andi.amov.core.domain.model.Movie
 import com.andi.amov.databinding.ActivityDetailBinding
 import com.bumptech.glide.Glide
-import dagger.hilt.android.AndroidEntryPoint
+import org.koin.androidx.viewmodel.ext.android.viewModel
 
-@AndroidEntryPoint
+
 class DetailActivity : AppCompatActivity() {
     companion object {
         const val EXTRA_DATA = "extra_data"
     }
 
     private lateinit var binding: ActivityDetailBinding
-    private val detailMovieViewModel :DetailMovieViewModel by viewModels()
+    private val detailMovieViewModel :DetailMovieViewModel by viewModel()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

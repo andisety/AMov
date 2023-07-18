@@ -6,19 +6,17 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import androidx.fragment.app.viewModels
-import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.StaggeredGridLayoutManager
 import com.andi.amov.core.ui.MovieAdapter
 import com.andi.amov.databinding.FragmentFavoriteBinding
 import com.andi.amov.ui.detail.DetailActivity
-import dagger.hilt.android.AndroidEntryPoint
+import org.koin.androidx.viewmodel.ext.android.viewModel
 
-@AndroidEntryPoint
+
 class FavoriteFragment : Fragment() {
 
     private var _binding: FragmentFavoriteBinding? = null
-    private val favoriteViewModel:FavoriteViewModel by viewModels()
+    private val favoriteViewModel:FavoriteViewModel by viewModel()
 
     // This property is only valid between onCreateView and
     // onDestroyView.

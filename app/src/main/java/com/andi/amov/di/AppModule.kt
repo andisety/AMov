@@ -2,18 +2,18 @@ package com.andi.amov.di
 
 import com.andi.amov.core.domain.usecase.MovieInteractor
 import com.andi.amov.core.domain.usecase.MovieUseCase
-import dagger.Binds
-import dagger.Module
-import dagger.hilt.InstallIn
-import dagger.hilt.android.components.ViewModelComponent
-import dagger.hilt.android.scopes.ViewModelScoped
+import com.andi.amov.ui.detail.DetailMovieViewModel
+import com.andi.amov.ui.favorite.FavoriteViewModel
+import com.andi.amov.ui.home.HomeViewModel
+import org.koin.androidx.viewmodel.dsl.viewModel
+import org.koin.dsl.module
 
-@Module
-@InstallIn(ViewModelComponent::class)
-abstract class AppModule {
+val useCaseModule = module {
+    factory<MovieUseCase> { MovieInteractor(get()) }
+}
 
-    @Binds
-    @ViewModelScoped
-    abstract fun provideTourismUseCase(movieInteractor: MovieInteractor): MovieUseCase
-
+val viewModelModule = module {
+    viewModel { HomeViewModel(get()) }
+    viewModel { FavoriteViewModel(get()) }
+    viewModel { DetailMovieViewModel(get()) }
 }
