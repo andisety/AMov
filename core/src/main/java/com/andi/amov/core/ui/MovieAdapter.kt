@@ -4,9 +4,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.andi.amov.R
+import com.andi.amov.core.R
 import com.andi.amov.core.domain.model.Movie
-import com.andi.amov.databinding.ItemMovieBinding
+import com.andi.amov.core.databinding.ItemMovieBinding
 import com.bumptech.glide.Glide
 
 class MovieAdapter : RecyclerView.Adapter<MovieAdapter.ListViewHolder>() {

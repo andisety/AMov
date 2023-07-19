@@ -45,8 +45,8 @@ val networkModule = module {
 }
 
 val repositoryModule = module {
-    single { LocalDataSource(get()) }
+    single { com.andi.amov.core.data.source.local.LocalDataSource(get()) }
     single { RemoteDataSource(get()) }
     factory { AppExecutors() }
-    single<IMovieRepository> { MovieRepository(get(), get(), get()) }
+    single<IMovieRepository> { com.andi.amov.core.data.MovieRepository(get(), get(), get()) }
 }

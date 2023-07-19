@@ -43,12 +43,12 @@ class HomeFragment : Fragment() {
             homeViewModel.movie.observe(viewLifecycleOwner){movies->
                 if (movies!=null){
                     when(movies){
-                        is Resource.Loading->binding.pgBar.visibility = View.VISIBLE
-                        is Resource.Success-> {
+                        is com.andi.amov.core.data.Resource.Loading->binding.pgBar.visibility = View.VISIBLE
+                        is com.andi.amov.core.data.Resource.Success-> {
                             binding.pgBar.visibility = View.GONE
                             movieAdapter.setData(movies.data)
                         }
-                        is Resource.Error->{
+                        is com.andi.amov.core.data.Resource.Error->{
                             binding.pgBar.visibility = View.VISIBLE
                             binding.tvError.visibility = View.VISIBLE
                         }

@@ -6,7 +6,7 @@ import kotlinx.coroutines.flow.Flow
 
 interface IMovieRepository {
 
-    fun getAllTourism(): Flow<Resource<List<Movie>>>
+    fun getAllTourism(): Flow<com.andi.amov.core.data.Resource<List<Movie>>>
 
     fun getFavoriteTourism(): Flow<List<Movie>>
 

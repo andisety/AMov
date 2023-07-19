@@ -14,12 +14,12 @@ import kotlinx.coroutines.flow.map
 
 class MovieRepository(
     private val remoteDataSource: RemoteDataSource,
-    private val localDataSource: LocalDataSource,
+    private val localDataSource: com.andi.amov.core.data.source.local.LocalDataSource,
     private val appExecutors: AppExecutors
 ) : IMovieRepository {
 
-    override fun getAllTourism(): Flow<Resource<List<Movie>>> =
-        object : NetworkBoundResource<List<Movie>, List<ResultsItem>>() {
+    override fun getAllTourism(): Flow<com.andi.amov.core.data.Resource<List<Movie>>> =
+        object : com.andi.amov.core.data.NetworkBoundResource<List<Movie>, List<ResultsItem>>() {
             override fun loadFromDB(): Flow<List<Movie>> {
                 return localDataSource.getAllTourism().map {
                     DataMapper.mapEntitiesToDomain(it)
