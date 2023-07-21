@@ -5,19 +5,13 @@ import com.andi.amov.core.data.source.remote.network.ApiService;
 import dagger.internal.DaggerGenerated;
 import dagger.internal.Factory;
 import dagger.internal.Preconditions;
-import dagger.internal.QualifierMetadata;
-import dagger.internal.ScopeMetadata;
 import javax.inject.Provider;
 import okhttp3.OkHttpClient;
 
-@ScopeMetadata
-@QualifierMetadata
 @DaggerGenerated
 @SuppressWarnings({
     "unchecked",
-    "rawtypes",
-    "KotlinInternal",
-    "KotlinInternalInJava"
+    "rawtypes"
 })
 public final class NetworkModule_ProvideApiServiceFactory implements Factory<ApiService> {
   private final NetworkModule module;

@@ -6,18 +6,12 @@ import com.andi.amov.core.data.source.remote.RemoteDataSource;
 import com.dicoding.tourismapp.core.utils.AppExecutors;
 import dagger.internal.DaggerGenerated;
 import dagger.internal.Factory;
-import dagger.internal.QualifierMetadata;
-import dagger.internal.ScopeMetadata;
 import javax.inject.Provider;
 
-@ScopeMetadata("javax.inject.Singleton")
-@QualifierMetadata
 @DaggerGenerated
 @SuppressWarnings({
     "unchecked",
-    "rawtypes",
-    "KotlinInternal",
-    "KotlinInternalInJava"
+    "rawtypes"
 })
 public final class MovieRepository_Factory implements Factory<MovieRepository> {
   private final Provider<RemoteDataSource> remoteDataSourceProvider;

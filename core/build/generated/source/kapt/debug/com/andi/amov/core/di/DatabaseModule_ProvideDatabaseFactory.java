@@ -6,18 +6,12 @@ import com.andi.amov.core.data.source.local.room.MovieDatabase;
 import dagger.internal.DaggerGenerated;
 import dagger.internal.Factory;
 import dagger.internal.Preconditions;
-import dagger.internal.QualifierMetadata;
-import dagger.internal.ScopeMetadata;
 import javax.inject.Provider;
 
-@ScopeMetadata("javax.inject.Singleton")
-@QualifierMetadata("dagger.hilt.android.qualifiers.ApplicationContext")
 @DaggerGenerated
 @SuppressWarnings({
     "unchecked",
-    "rawtypes",
-    "KotlinInternal",
-    "KotlinInternalInJava"
+    "rawtypes"
 })
 public final class DatabaseModule_ProvideDatabaseFactory implements Factory<MovieDatabase> {
   private final DatabaseModule module;

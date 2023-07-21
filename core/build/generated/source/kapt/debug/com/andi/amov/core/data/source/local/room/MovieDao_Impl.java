@@ -65,7 +65,8 @@ public final class MovieDao_Impl implements MovieDao {
           stmt.bindString(6, value.getRelease_date());
         }
         stmt.bindDouble(7, value.getVote_average());
-        final int _tmp = value.isFavorite() ? 1 : 0;
+        final int _tmp;
+        _tmp = value.isFavorite() ? 1 : 0;
         stmt.bindLong(8, _tmp);
       }
     };
@@ -100,7 +101,8 @@ public final class MovieDao_Impl implements MovieDao {
           stmt.bindString(6, value.getRelease_date());
         }
         stmt.bindDouble(7, value.getVote_average());
-        final int _tmp = value.isFavorite() ? 1 : 0;
+        final int _tmp;
+        _tmp = value.isFavorite() ? 1 : 0;
         stmt.bindLong(8, _tmp);
         stmt.bindLong(9, value.getMovieId());
       }
@@ -109,7 +111,7 @@ public final class MovieDao_Impl implements MovieDao {
 
   @Override
   public Object insertTourism(final List<MovieEntity> tourism,
-      final Continuation<? super Unit> $completion) {
+      final Continuation<? super Unit> continuation) {
     return CoroutinesRoom.execute(__db, true, new Callable<Unit>() {
       @Override
       public Unit call() throws Exception {
@@ -122,7 +124,7 @@ public final class MovieDao_Impl implements MovieDao {
           __db.endTransaction();
         }
       }
-    }, $completion);
+    }, continuation);
   }
 
   @Override

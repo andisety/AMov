@@ -2,10 +2,7 @@
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
 3    package="com.andi.amov.core" >
 4
-5    <uses-sdk
-6        android:minSdkVersion="24"
-6-->E:\CODING\Dicoding\android\android expert\amov\core\src\main\AndroidManifest.xml
-7        android:targetSdkVersion="33" />
-7-->E:\CODING\Dicoding\android\android expert\amov\core\src\main\AndroidManifest.xml
-8
-9</manifest>
+5    <uses-sdk android:minSdkVersion="24" />
+5-->E:\CODING\Dicoding\android\submission\expert\amov\core\src\main\AndroidManifest.xml
+6
+7</manifest>

@@ -4,18 +4,12 @@ package com.andi.amov.core.domain.usecase;
 import com.andi.amov.core.domain.repository.IMovieRepository;
 import dagger.internal.DaggerGenerated;
 import dagger.internal.Factory;
-import dagger.internal.QualifierMetadata;
-import dagger.internal.ScopeMetadata;
 import javax.inject.Provider;
 
-@ScopeMetadata
-@QualifierMetadata
 @DaggerGenerated
 @SuppressWarnings({
     "unchecked",
-    "rawtypes",
-    "KotlinInternal",
-    "KotlinInternalInJava"
+    "rawtypes"
 })
 public final class MovieInteractor_Factory implements Factory<MovieInteractor> {
   private final Provider<IMovieRepository> movieRepositoryProvider;

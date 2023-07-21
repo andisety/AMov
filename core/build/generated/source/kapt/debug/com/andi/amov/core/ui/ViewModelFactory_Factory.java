@@ -4,19 +4,13 @@ package com.andi.amov.core.ui;
 import androidx.lifecycle.ViewModel;
 import dagger.internal.DaggerGenerated;
 import dagger.internal.Factory;
-import dagger.internal.QualifierMetadata;
-import dagger.internal.ScopeMetadata;
 import java.util.Map;
 import javax.inject.Provider;
 
-@ScopeMetadata
-@QualifierMetadata
 @DaggerGenerated
 @SuppressWarnings({
     "unchecked",
-    "rawtypes",
-    "KotlinInternal",
-    "KotlinInternalInJava"
+    "rawtypes"
 })
 public final class ViewModelFactory_Factory implements Factory<ViewModelFactory> {
   private final Provider<Map<Class<? extends ViewModel>, Provider<ViewModel>>> creatorsProvider;

@@ -6,18 +6,12 @@ import com.andi.amov.core.data.source.local.room.MovieDatabase;
 import dagger.internal.DaggerGenerated;
 import dagger.internal.Factory;
 import dagger.internal.Preconditions;
-import dagger.internal.QualifierMetadata;
-import dagger.internal.ScopeMetadata;
 import javax.inject.Provider;
 
-@ScopeMetadata
-@QualifierMetadata
 @DaggerGenerated
 @SuppressWarnings({
     "unchecked",
-    "rawtypes",
-    "KotlinInternal",
-    "KotlinInternalInJava"
+    "rawtypes"
 })
 public final class DatabaseModule_ProvideTourismDaoFactory implements Factory<MovieDao> {
   private final DatabaseModule module;

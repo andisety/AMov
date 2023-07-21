@@ -4,18 +4,12 @@ package com.andi.amov.core.data.source.remote;
 import com.andi.amov.core.data.source.remote.network.ApiService;
 import dagger.internal.DaggerGenerated;
 import dagger.internal.Factory;
-import dagger.internal.QualifierMetadata;
-import dagger.internal.ScopeMetadata;
 import javax.inject.Provider;
 
-@ScopeMetadata("javax.inject.Singleton")
-@QualifierMetadata
 @DaggerGenerated
 @SuppressWarnings({
     "unchecked",
-    "rawtypes",
-    "KotlinInternal",
-    "KotlinInternalInJava"
+    "rawtypes"
 })
 public final class RemoteDataSource_Factory implements Factory<RemoteDataSource> {
   private final Provider<ApiService> apiServiceProvider;
