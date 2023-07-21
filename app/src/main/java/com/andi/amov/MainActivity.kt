@@ -1,7 +1,10 @@
 package com.andi.amov
 
+import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import android.view.Menu
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.navigation.findNavController
@@ -28,21 +31,30 @@ class MainActivity : AppCompatActivity() {
         setSupportActionBar(binding.appBarMain.toolbar)
 
         binding.appBarMain.fab.setOnClickListener { view ->
-            Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                .setAction("Action", null).show()
+            try {
+                moveToChatActivity()
+            } catch (e: Exception){
+                Toast.makeText(this, "Module not found", Toast.LENGTH_SHORT).show()
+            }
+//            val uri = Uri.parse("amov://favorite")
+//            startActivity(Intent(Intent.ACTION_VIEW, uri))
         }
         val drawerLayout: DrawerLayout = binding.drawerLayout
         val navView: NavigationView = binding.navView
         val navController = findNavController(R.id.nav_host_fragment_content_main)
-        // Passing each menu ID as a set of Ids because each
-        // menu should be considered as top level destinations.
-        appBarConfiguration = AppBarConfiguration(
-            setOf(
-                R.id.nav_home, R.id.nav_favorite
-            ), drawerLayout
-        )
-        setupActionBarWithNavController(navController, appBarConfiguration)
+//        // Passing each menu ID as a set of Ids because each
+//        // menu should be considered as top level destinations.
+//        appBarConfiguration = AppBarConfiguration(
+//            setOf(
+//                R.id.nav_home, R.id.nav_favorite
+//            ), drawerLayout
+//        )
+//        setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
+    }
+
+    private fun moveToChatActivity() {
+        startActivity(Intent(this, Class.forName("com.andi.amov.favorite.FavoriteActivity")))
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {

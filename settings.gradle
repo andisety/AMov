@@ -15,3 +15,4 @@
 rootProject.name = "AMov"
 include ':app'
 include ':core'
+include ':favorite'
