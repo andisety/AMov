@@ -17,4 +17,7 @@
     <string name="icon_favorite">icon favorite</string>
     <string name="empty_data">Empty Data</string>
     <string name="favorite">Favorite</string>
+    <string name="title_favorite">Favorite</string>
+    <string name="black_adam">Black Adam</string>
+    <string name="yuhuu">yuhuu</string>
 </resources>

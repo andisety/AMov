@@ -8,14 +8,10 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.recyclerview.widget.GridLayoutManager
-import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
-import androidx.recyclerview.widget.StaggeredGridLayoutManager
 import com.andi.amov.core.data.Resource
 import com.andi.amov.core.ui.MovieAdapter
 import com.andi.amov.databinding.FragmentHomeBinding
 import com.andi.amov.ui.detail.DetailActivity
-import com.andi.amov.ui.detail.DetailMovieViewModel
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
@@ -63,7 +59,7 @@ class HomeFragment : Fragment() {
                 }
             }
             with(binding.rcList) {
-                val lm = StaggeredGridLayoutManager(2,StaggeredGridLayoutManager.VERTICAL)
+                val lm = GridLayoutManager(activity,2 )
                 layoutManager = lm
                 setHasFixedSize(true)
                 adapter = movieAdapter

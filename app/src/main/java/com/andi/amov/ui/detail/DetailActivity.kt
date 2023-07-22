@@ -1,8 +1,10 @@
 package com.andi.amov.ui.detail
 
-import androidx.appcompat.app.AppCompatActivity
+import android.os.Build
 import android.os.Bundle
+import android.view.WindowManager
 import androidx.activity.viewModels
+import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import com.andi.amov.R
 import com.andi.amov.core.domain.model.Movie
@@ -11,7 +13,7 @@ import com.bumptech.glide.Glide
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
-class DetailActivity : AppCompatActivity() {
+class DetailActivity : AppCompatActivity(){
     companion object {
         const val EXTRA_DATA = "extra_data"
     }
@@ -23,6 +25,11 @@ class DetailActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityDetailBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
+            window.setFlags(
+                WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS,
+                WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS);
+        }
         val movieDetail = intent.getParcelableExtra<Movie>(EXTRA_DATA)
         showDetailMovie(movieDetail)
     }
@@ -30,6 +37,7 @@ class DetailActivity : AppCompatActivity() {
     private fun showDetailMovie(movieDetail: Movie?) {
         movieDetail?.let {
             supportActionBar?.title = movieDetail.title
+            binding.toolbar.title = movieDetail.title
             binding.content.tvDetailDescription.text = movieDetail.overview
             binding.content.rBar.rating = (movieDetail.vote_average/2).toFloat()
             Glide.with(this@DetailActivity)
@@ -53,4 +61,5 @@ class DetailActivity : AppCompatActivity() {
             binding.fab.setImageDrawable(ContextCompat.getDrawable(this, R.drawable.ic_not_favorite_white))
         }
     }
+
 }
