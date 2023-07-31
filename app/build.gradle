@@ -12,6 +12,10 @@ apply from: '../shared_dependencies.gradle'
 android {
     compileSdk 33
 
+    lintOptions {
+        baseline file("lint-baseline.xml")
+    }
+
     defaultConfig {
         applicationId "com.andi.amov"
         minSdk 24
@@ -21,6 +25,7 @@ android {
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
+
 
     buildTypes {
         release {

@@ -30,7 +30,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/view_empty"
         android:visibility="gone"
-        android:text="Empty"
+        android:text="@string/empty"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
