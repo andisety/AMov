@@ -4,8 +4,8 @@ ADDED from E:\CODING\Dicoding\android\submission\expert\amov\core\src\main\Andro
 INJECTED from E:\CODING\Dicoding\android\submission\expert\amov\core\src\main\AndroidManifest.xml:2:1-4:12
 INJECTED from E:\CODING\Dicoding\android\submission\expert\amov\core\src\main\AndroidManifest.xml:2:1-4:12
 	package
-		ADDED from E:\CODING\Dicoding\android\submission\expert\amov\core\src\main\AndroidManifest.xml:2:11-39
 		INJECTED from E:\CODING\Dicoding\android\submission\expert\amov\core\src\main\AndroidManifest.xml
+		ADDED from E:\CODING\Dicoding\android\submission\expert\amov\core\src\main\AndroidManifest.xml:2:1-4:12
 		INJECTED from E:\CODING\Dicoding\android\submission\expert\amov\core\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from E:\CODING\Dicoding\android\submission\expert\amov\core\src\main\AndroidManifest.xml:2:1-4:12
