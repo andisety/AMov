@@ -25,11 +25,6 @@ android {
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
-
-<<<<<<< HEAD
-
-=======
->>>>>>> parent of 9e345d7 (try to fix error lint)
     buildTypes {
         release {
             minifyEnabled false
