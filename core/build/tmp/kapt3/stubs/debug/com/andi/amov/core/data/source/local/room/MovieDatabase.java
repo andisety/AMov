@@ -10,6 +10,6 @@ public abstract class MovieDatabase extends androidx.room.RoomDatabase {
         super();
     }
     
-    @org.jetbrains.annotations.NotNull()
+    @org.jetbrains.annotations.NotNull
     public abstract com.andi.amov.core.data.source.local.room.MovieDao tourismDao();
 }

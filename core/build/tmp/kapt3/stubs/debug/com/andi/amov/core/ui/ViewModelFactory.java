@@ -6,16 +6,16 @@ import java.lang.System;
 public final class ViewModelFactory implements androidx.lifecycle.ViewModelProvider.Factory {
     private final java.util.Map<java.lang.Class<? extends androidx.lifecycle.ViewModel>, javax.inject.Provider<androidx.lifecycle.ViewModel>> creators = null;
     
-    @javax.inject.Inject()
-    public ViewModelFactory(@org.jetbrains.annotations.NotNull()
+    @javax.inject.Inject
+    public ViewModelFactory(@org.jetbrains.annotations.NotNull
     java.util.Map<java.lang.Class<? extends androidx.lifecycle.ViewModel>, javax.inject.Provider<androidx.lifecycle.ViewModel>> creators) {
         super();
     }
     
-    @org.jetbrains.annotations.NotNull()
+    @org.jetbrains.annotations.NotNull
     @kotlin.Suppress(names = {"UNCHECKED_CAST"})
-    @java.lang.Override()
-    public <T extends androidx.lifecycle.ViewModel>T create(@org.jetbrains.annotations.NotNull()
+    @java.lang.Override
+    public <T extends androidx.lifecycle.ViewModel>T create(@org.jetbrains.annotations.NotNull
     java.lang.Class<T> modelClass) {
         return null;
     }
