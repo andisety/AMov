@@ -13,21 +13,21 @@ public abstract class NetworkBoundResource<ResultType extends java.lang.Object, 
     protected void onFetchFailed() {
     }
     
-    @org.jetbrains.annotations.NotNull
+    @org.jetbrains.annotations.NotNull()
     protected abstract kotlinx.coroutines.flow.Flow<ResultType> loadFromDB();
     
-    protected abstract boolean shouldFetch(@org.jetbrains.annotations.Nullable
+    protected abstract boolean shouldFetch(@org.jetbrains.annotations.Nullable()
     ResultType data);
     
-    @org.jetbrains.annotations.Nullable
-    protected abstract java.lang.Object createCall(@org.jetbrains.annotations.NotNull
+    @org.jetbrains.annotations.Nullable()
+    protected abstract java.lang.Object createCall(@org.jetbrains.annotations.NotNull()
     kotlin.coroutines.Continuation<? super kotlinx.coroutines.flow.Flow<? extends com.andi.amov.core.data.source.remote.network.ApiResponse<? extends RequestType>>> continuation);
     
-    @org.jetbrains.annotations.Nullable
-    protected abstract java.lang.Object saveCallResult(RequestType data, @org.jetbrains.annotations.NotNull
+    @org.jetbrains.annotations.Nullable()
+    protected abstract java.lang.Object saveCallResult(RequestType data, @org.jetbrains.annotations.NotNull()
     kotlin.coroutines.Continuation<? super kotlin.Unit> continuation);
     
-    @org.jetbrains.annotations.NotNull
+    @org.jetbrains.annotations.NotNull()
     public final kotlinx.coroutines.flow.Flow<com.andi.amov.core.data.Resource<ResultType>> asFlow() {
         return null;
     }

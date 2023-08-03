@@ -6,26 +6,26 @@ import java.lang.System;
 public final class MovieInteractor implements com.andi.amov.core.domain.usecase.MovieUseCase {
     private final com.andi.amov.core.domain.repository.IMovieRepository movieRepository = null;
     
-    @javax.inject.Inject
-    public MovieInteractor(@org.jetbrains.annotations.NotNull
+    @javax.inject.Inject()
+    public MovieInteractor(@org.jetbrains.annotations.NotNull()
     com.andi.amov.core.domain.repository.IMovieRepository movieRepository) {
         super();
     }
     
-    @org.jetbrains.annotations.NotNull
-    @java.lang.Override
+    @org.jetbrains.annotations.NotNull()
+    @java.lang.Override()
     public kotlinx.coroutines.flow.Flow<com.andi.amov.core.data.Resource<java.util.List<com.andi.amov.core.domain.model.Movie>>> getAllMovie() {
         return null;
     }
     
-    @org.jetbrains.annotations.NotNull
-    @java.lang.Override
+    @org.jetbrains.annotations.NotNull()
+    @java.lang.Override()
     public kotlinx.coroutines.flow.Flow<java.util.List<com.andi.amov.core.domain.model.Movie>> getFavoriteMovie() {
         return null;
     }
     
-    @java.lang.Override
-    public void setFavoriteMovie(@org.jetbrains.annotations.NotNull
+    @java.lang.Override()
+    public void setFavoriteMovie(@org.jetbrains.annotations.NotNull()
     com.andi.amov.core.domain.model.Movie movie, boolean state) {
     }
 }

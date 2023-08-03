@@ -11,8 +11,8 @@ public abstract class RepositoryModule {
         super();
     }
     
-    @org.jetbrains.annotations.NotNull
-    @dagger.Binds
-    public abstract com.andi.amov.core.domain.repository.IMovieRepository provideRepository(@org.jetbrains.annotations.NotNull
+    @org.jetbrains.annotations.NotNull()
+    @dagger.Binds()
+    public abstract com.andi.amov.core.domain.repository.IMovieRepository provideRepository(@org.jetbrains.annotations.NotNull()
     com.andi.amov.core.data.MovieRepository movieRepository);
 }

@@ -7,34 +7,34 @@ public final class AppExecutors {
     private final java.util.concurrent.Executor diskIO = null;
     private final java.util.concurrent.Executor networkIO = null;
     private final java.util.concurrent.Executor mainThread = null;
-    @org.jetbrains.annotations.NotNull
+    @org.jetbrains.annotations.NotNull()
     public static final com.dicoding.tourismapp.core.utils.AppExecutors.Companion Companion = null;
     private static final int THREAD_COUNT = 3;
     
-    @androidx.annotation.VisibleForTesting
-    public AppExecutors(@org.jetbrains.annotations.NotNull
-    java.util.concurrent.Executor diskIO, @org.jetbrains.annotations.NotNull
-    java.util.concurrent.Executor networkIO, @org.jetbrains.annotations.NotNull
+    @androidx.annotation.VisibleForTesting()
+    public AppExecutors(@org.jetbrains.annotations.NotNull()
+    java.util.concurrent.Executor diskIO, @org.jetbrains.annotations.NotNull()
+    java.util.concurrent.Executor networkIO, @org.jetbrains.annotations.NotNull()
     java.util.concurrent.Executor mainThread) {
         super();
     }
     
-    @javax.inject.Inject
+    @javax.inject.Inject()
     public AppExecutors() {
         super();
     }
     
-    @org.jetbrains.annotations.NotNull
+    @org.jetbrains.annotations.NotNull()
     public final java.util.concurrent.Executor diskIO() {
         return null;
     }
     
-    @org.jetbrains.annotations.NotNull
+    @org.jetbrains.annotations.NotNull()
     public final java.util.concurrent.Executor networkIO() {
         return null;
     }
     
-    @org.jetbrains.annotations.NotNull
+    @org.jetbrains.annotations.NotNull()
     public final java.util.concurrent.Executor mainThread() {
         return null;
     }
@@ -47,8 +47,8 @@ public final class AppExecutors {
             super();
         }
         
-        @java.lang.Override
-        public void execute(@org.jetbrains.annotations.NotNull
+        @java.lang.Override()
+        public void execute(@org.jetbrains.annotations.NotNull()
         java.lang.Runnable command) {
         }
     }
