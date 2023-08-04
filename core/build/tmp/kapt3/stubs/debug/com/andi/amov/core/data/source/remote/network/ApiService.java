@@ -6,7 +6,7 @@ import java.lang.System;
 public abstract interface ApiService {
     
     @org.jetbrains.annotations.Nullable()
-    @retrofit2.http.GET(value = "movie/popular?api_key=a68bd20074fdd9c9d53697376998cabd")
+    @retrofit2.http.GET(value = "/3/movie/popular?api_key=a68bd20074fdd9c9d53697376998cabd")
     public abstract java.lang.Object getList(@org.jetbrains.annotations.NotNull()
     kotlin.coroutines.Continuation<? super com.andi.amov.core.data.source.remote.response.ResponseMovies> continuation);
 }
