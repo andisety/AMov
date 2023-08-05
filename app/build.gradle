@@ -43,6 +43,7 @@ android {
         viewBinding true
     }
     dynamicFeatures = [':favorite']
+    namespace 'com.andi.amov'
 }
 
 dependencies {
