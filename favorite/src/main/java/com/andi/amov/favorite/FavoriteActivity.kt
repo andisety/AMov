@@ -22,7 +22,6 @@ class FavoriteActivity : AppCompatActivity() {
     private val favoriteViewModel:FavoriteViewModels by viewModels{
         factory
     }
-
     lateinit var binding:ActivityFavoriteBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         DaggerFavoriteComponent.builder()
@@ -38,13 +37,10 @@ class FavoriteActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityFavoriteBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
         supportActionBar?.title = "Favorite"
-
         favoriteViewModel.movieList.observe(this) { dataMovie ->
             setupRecyclerView(dataMovie)
         }
-
     }
 
     private fun setupRecyclerView(dataMovie:List<Movie>?) {
