@@ -8,36 +8,36 @@ public final class ResponseMovies {
     private final int page = 0;
     @com.google.gson.annotations.SerializedName(value = "total_pages")
     private final int totalPages = 0;
-    @org.jetbrains.annotations.NotNull()
+    @org.jetbrains.annotations.NotNull
     @com.google.gson.annotations.SerializedName(value = "results")
     private final java.util.List<com.andi.amov.core.data.source.remote.response.ResultsItem> results = null;
     @com.google.gson.annotations.SerializedName(value = "total_results")
     private final int totalResults = 0;
     
-    @org.jetbrains.annotations.NotNull()
-    public final com.andi.amov.core.data.source.remote.response.ResponseMovies copy(int page, int totalPages, @org.jetbrains.annotations.NotNull()
+    @org.jetbrains.annotations.NotNull
+    public final com.andi.amov.core.data.source.remote.response.ResponseMovies copy(int page, int totalPages, @org.jetbrains.annotations.NotNull
     java.util.List<com.andi.amov.core.data.source.remote.response.ResultsItem> results, int totalResults) {
         return null;
     }
     
-    @java.lang.Override()
-    public boolean equals(@org.jetbrains.annotations.Nullable()
+    @java.lang.Override
+    public boolean equals(@org.jetbrains.annotations.Nullable
     java.lang.Object other) {
         return false;
     }
     
-    @java.lang.Override()
+    @java.lang.Override
     public int hashCode() {
         return 0;
     }
     
-    @org.jetbrains.annotations.NotNull()
-    @java.lang.Override()
+    @org.jetbrains.annotations.NotNull
+    @java.lang.Override
     public java.lang.String toString() {
         return null;
     }
     
-    public ResponseMovies(int page, int totalPages, @org.jetbrains.annotations.NotNull()
+    public ResponseMovies(int page, int totalPages, @org.jetbrains.annotations.NotNull
     java.util.List<com.andi.amov.core.data.source.remote.response.ResultsItem> results, int totalResults) {
         super();
     }
@@ -58,12 +58,12 @@ public final class ResponseMovies {
         return 0;
     }
     
-    @org.jetbrains.annotations.NotNull()
+    @org.jetbrains.annotations.NotNull
     public final java.util.List<com.andi.amov.core.data.source.remote.response.ResultsItem> component3() {
         return null;
     }
     
-    @org.jetbrains.annotations.NotNull()
+    @org.jetbrains.annotations.NotNull
     public final java.util.List<com.andi.amov.core.data.source.remote.response.ResultsItem> getResults() {
         return null;
     }
