@@ -5,16 +5,12 @@ orbs:
 
 jobs:
   build:
-    executor: android/android
+    docker:
+      - image: cimg/openjdk:20.0.1
     steps:
       - checkout
       - restore_cache:
           key: android-orb-v1-
-      - run:
-          name: Set Java Version to 17
-          command: |
-            sudo update-alternatives --set java /usr/lib/jvm/jdk-17/bin/java
-            sudo update-alternatives --set javac /usr/lib/jvm/jdk-17/bin/javac
       - run:
           name: Chmod permissions
           command: sudo chmod +x ./gradlew
