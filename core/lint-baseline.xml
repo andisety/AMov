@@ -1,0 +1,1558 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="5" by="lint Giraffe | 2022.3.1">
+
+    <issue
+        id="FragmentTagUsage"
+        message="Replace the &lt;fragment> tag with FragmentContainerView.">
+        <location
+            file="src\main\res\layout\content_main.xml"
+            line="10"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.lifecycle:lifecycle-livedata-ktx than 2.3.1 is available: 2.6.1">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.room:room-ktx than 2.3.0 is available: 2.5.2">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.room:room-runtime than 2.3.0 is available: 2.5.2">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.room:room-testing than 2.3.0 is available: 2.5.2">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.sqlite:sqlite-ktx than 2.1.0 is available: 2.3.1">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of com.squareup.okhttp3:logging-interceptor than 4.9.0 is available: 4.9.3">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of org.jetbrains.kotlin:kotlin-stdlib-jdk7 than 1.6.21 is available: 1.8.20">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of org.jetbrains.kotlin:kotlin-stdlib-jdk7 than 1.6.21 is available: 1.8.20">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of org.jetbrains.kotlin:kotlin-stdlib-jdk7 than 1.6.21 is available: 1.8.20">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of org.jetbrains.kotlinx:kotlinx-coroutines-android than 1.4.2 is available: 1.7.3">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="EntityInsertionAdapter can only be accessed from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDao_Impl.java"
+            line="37"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="EntityInsertionAdapter can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDao_Impl.java"
+            line="37"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="SharedSQLiteStatement.createQuery can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDao_Impl.java"
+            line="39"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="EntityInsertionAdapter.bind can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDao_Impl.java"
+            line="44"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="EntityDeletionOrUpdateAdapter can only be accessed from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDao_Impl.java"
+            line="73"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="EntityDeletionOrUpdateAdapter can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDao_Impl.java"
+            line="73"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="EntityDeletionOrUpdateAdapter.createQuery can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDao_Impl.java"
+            line="75"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="EntityDeletionOrUpdateAdapter.bind can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDao_Impl.java"
+            line="80"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="EntityInsertionAdapter.insert can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDao_Impl.java"
+            line="120"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="RoomDatabase.assertNotSuspendingTransaction can only be called from within the same library group (referenced groupId=`androidx.room` from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDao_Impl.java"
+            line="132"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="EntityDeletionOrUpdateAdapter.handle can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDao_Impl.java"
+            line="135"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="RoomSQLiteQuery.acquire can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDao_Impl.java"
+            line="145"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="DBUtil.query can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDao_Impl.java"
+            line="149"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="DBUtil.query can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDao_Impl.java"
+            line="149"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="DBUtil.query can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDao_Impl.java"
+            line="149"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="DBUtil.query can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDao_Impl.java"
+            line="149"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="CursorUtil.getColumnIndexOrThrow can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDao_Impl.java"
+            line="151"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="CursorUtil.getColumnIndexOrThrow can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDao_Impl.java"
+            line="151"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="CursorUtil.getColumnIndexOrThrow can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDao_Impl.java"
+            line="151"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="CursorUtil.getColumnIndexOrThrow can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDao_Impl.java"
+            line="152"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="CursorUtil.getColumnIndexOrThrow can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDao_Impl.java"
+            line="152"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="CursorUtil.getColumnIndexOrThrow can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDao_Impl.java"
+            line="152"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="CursorUtil.getColumnIndexOrThrow can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDao_Impl.java"
+            line="153"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="CursorUtil.getColumnIndexOrThrow can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDao_Impl.java"
+            line="153"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="CursorUtil.getColumnIndexOrThrow can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDao_Impl.java"
+            line="153"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="CursorUtil.getColumnIndexOrThrow can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDao_Impl.java"
+            line="154"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="CursorUtil.getColumnIndexOrThrow can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDao_Impl.java"
+            line="154"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="CursorUtil.getColumnIndexOrThrow can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDao_Impl.java"
+            line="154"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="CursorUtil.getColumnIndexOrThrow can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDao_Impl.java"
+            line="155"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="CursorUtil.getColumnIndexOrThrow can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDao_Impl.java"
+            line="155"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="CursorUtil.getColumnIndexOrThrow can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDao_Impl.java"
+            line="155"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="CursorUtil.getColumnIndexOrThrow can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDao_Impl.java"
+            line="156"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="CursorUtil.getColumnIndexOrThrow can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDao_Impl.java"
+            line="156"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="CursorUtil.getColumnIndexOrThrow can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDao_Impl.java"
+            line="156"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="CursorUtil.getColumnIndexOrThrow can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDao_Impl.java"
+            line="157"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="CursorUtil.getColumnIndexOrThrow can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDao_Impl.java"
+            line="157"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="CursorUtil.getColumnIndexOrThrow can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDao_Impl.java"
+            line="157"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="CursorUtil.getColumnIndexOrThrow can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDao_Impl.java"
+            line="158"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="CursorUtil.getColumnIndexOrThrow can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDao_Impl.java"
+            line="158"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="CursorUtil.getColumnIndexOrThrow can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDao_Impl.java"
+            line="158"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="RoomSQLiteQuery.release can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDao_Impl.java"
+            line="207"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="RoomSQLiteQuery.acquire can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDao_Impl.java"
+            line="215"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="DBUtil.query can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDao_Impl.java"
+            line="219"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="DBUtil.query can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDao_Impl.java"
+            line="219"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="DBUtil.query can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDao_Impl.java"
+            line="219"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="DBUtil.query can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDao_Impl.java"
+            line="219"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="CursorUtil.getColumnIndexOrThrow can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDao_Impl.java"
+            line="221"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="CursorUtil.getColumnIndexOrThrow can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDao_Impl.java"
+            line="221"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="CursorUtil.getColumnIndexOrThrow can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDao_Impl.java"
+            line="221"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="CursorUtil.getColumnIndexOrThrow can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDao_Impl.java"
+            line="222"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="CursorUtil.getColumnIndexOrThrow can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDao_Impl.java"
+            line="222"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="CursorUtil.getColumnIndexOrThrow can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDao_Impl.java"
+            line="222"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="CursorUtil.getColumnIndexOrThrow can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDao_Impl.java"
+            line="223"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="CursorUtil.getColumnIndexOrThrow can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDao_Impl.java"
+            line="223"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="CursorUtil.getColumnIndexOrThrow can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDao_Impl.java"
+            line="223"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="CursorUtil.getColumnIndexOrThrow can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDao_Impl.java"
+            line="224"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="CursorUtil.getColumnIndexOrThrow can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDao_Impl.java"
+            line="224"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="CursorUtil.getColumnIndexOrThrow can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDao_Impl.java"
+            line="224"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="CursorUtil.getColumnIndexOrThrow can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDao_Impl.java"
+            line="225"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="CursorUtil.getColumnIndexOrThrow can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDao_Impl.java"
+            line="225"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="CursorUtil.getColumnIndexOrThrow can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDao_Impl.java"
+            line="225"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="CursorUtil.getColumnIndexOrThrow can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDao_Impl.java"
+            line="226"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="CursorUtil.getColumnIndexOrThrow can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDao_Impl.java"
+            line="226"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="CursorUtil.getColumnIndexOrThrow can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDao_Impl.java"
+            line="226"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="CursorUtil.getColumnIndexOrThrow can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDao_Impl.java"
+            line="227"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="CursorUtil.getColumnIndexOrThrow can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDao_Impl.java"
+            line="227"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="CursorUtil.getColumnIndexOrThrow can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDao_Impl.java"
+            line="227"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="CursorUtil.getColumnIndexOrThrow can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDao_Impl.java"
+            line="228"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="CursorUtil.getColumnIndexOrThrow can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDao_Impl.java"
+            line="228"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="CursorUtil.getColumnIndexOrThrow can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDao_Impl.java"
+            line="228"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="RoomSQLiteQuery.release can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDao_Impl.java"
+            line="277"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="Delegate can only be accessed from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDatabase_Impl.java"
+            line="33"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="Delegate can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDatabase_Impl.java"
+            line="33"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="RoomOpenHelper can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDatabase_Impl.java"
+            line="33"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="RoomOpenHelper can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDatabase_Impl.java"
+            line="33"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="RoomOpenHelper can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDatabase_Impl.java"
+            line="33"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="Delegate.createAllTables can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDatabase_Impl.java"
+            line="35"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="Delegate.dropAllTables can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDatabase_Impl.java"
+            line="42"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="RoomDatabase.mCallbacks can only be accessed from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDatabase_Impl.java"
+            line="44"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="RoomDatabase.mCallbacks can only be accessed from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDatabase_Impl.java"
+            line="45"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="RoomDatabase.mCallbacks can only be accessed from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDatabase_Impl.java"
+            line="46"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="Delegate.onCreate can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDatabase_Impl.java"
+            line="52"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="RoomDatabase.mCallbacks can only be accessed from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDatabase_Impl.java"
+            line="53"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="RoomDatabase.mCallbacks can only be accessed from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDatabase_Impl.java"
+            line="54"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="RoomDatabase.mCallbacks can only be accessed from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDatabase_Impl.java"
+            line="55"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="Delegate.onOpen can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDatabase_Impl.java"
+            line="61"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="RoomDatabase.mCallbacks can only be accessed from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDatabase_Impl.java"
+            line="64"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="RoomDatabase.mCallbacks can only be accessed from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDatabase_Impl.java"
+            line="65"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="RoomDatabase.mCallbacks can only be accessed from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDatabase_Impl.java"
+            line="66"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="Delegate.onPreMigrate can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDatabase_Impl.java"
+            line="72"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="DBUtil.dropFtsSyncTriggers can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDatabase_Impl.java"
+            line="73"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="Delegate.onPostMigrate can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDatabase_Impl.java"
+            line="77"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="Delegate.onValidateSchema can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDatabase_Impl.java"
+            line="81"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="Column can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDatabase_Impl.java"
+            line="83"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="Column can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDatabase_Impl.java"
+            line="83"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="TableInfo.CREATED_FROM_ENTITY can only be accessed from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDatabase_Impl.java"
+            line="83"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="Column can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDatabase_Impl.java"
+            line="84"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="Column can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDatabase_Impl.java"
+            line="84"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="TableInfo.CREATED_FROM_ENTITY can only be accessed from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDatabase_Impl.java"
+            line="84"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="Column can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDatabase_Impl.java"
+            line="85"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="Column can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDatabase_Impl.java"
+            line="85"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="TableInfo.CREATED_FROM_ENTITY can only be accessed from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDatabase_Impl.java"
+            line="85"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="Column can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDatabase_Impl.java"
+            line="86"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="Column can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDatabase_Impl.java"
+            line="86"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="TableInfo.CREATED_FROM_ENTITY can only be accessed from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDatabase_Impl.java"
+            line="86"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="Column can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDatabase_Impl.java"
+            line="87"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="Column can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDatabase_Impl.java"
+            line="87"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="TableInfo.CREATED_FROM_ENTITY can only be accessed from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDatabase_Impl.java"
+            line="87"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="Column can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDatabase_Impl.java"
+            line="88"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="Column can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDatabase_Impl.java"
+            line="88"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="TableInfo.CREATED_FROM_ENTITY can only be accessed from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDatabase_Impl.java"
+            line="88"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="Column can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDatabase_Impl.java"
+            line="89"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="Column can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDatabase_Impl.java"
+            line="89"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="TableInfo.CREATED_FROM_ENTITY can only be accessed from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDatabase_Impl.java"
+            line="89"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="Column can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDatabase_Impl.java"
+            line="90"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="Column can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDatabase_Impl.java"
+            line="90"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="TableInfo.CREATED_FROM_ENTITY can only be accessed from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDatabase_Impl.java"
+            line="90"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="TableInfo can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDatabase_Impl.java"
+            line="93"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="TableInfo.read can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDatabase_Impl.java"
+            line="94"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="TableInfo.equals can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDatabase_Impl.java"
+            line="95"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="ValidationResult can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDatabase_Impl.java"
+            line="96"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="ValidationResult can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDatabase_Impl.java"
+            line="96"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="ValidationResult can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDatabase_Impl.java"
+            line="100"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="ValidationResult can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDatabase_Impl.java"
+            line="100"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="RoomOpenHelper can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDatabase_Impl.java"
+            line="102"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="RoomOpenHelper can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDatabase_Impl.java"
+            line="102"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="InvalidationTracker can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDatabase_Impl.java"
+            line="115"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="RoomDatabase.assertNotMainThread can only be called from within the same library group prefix (referenced groupId=`androidx.room` with prefix androidx from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDatabase_Impl.java"
+            line="120"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="RoomDatabase.getRequiredTypeConverters can only be called from within the same library group (referenced groupId=`androidx.room` from groupId=`AMov`)">
+        <location
+            file="build\generated\source\kapt\debug\com\andi\amov\core\data\source\local\room\MovieDatabase_Impl.java"
+            line="136"/>
+    </issue>
+
+    <issue
+        id="ExpiredTargetSdkVersion"
+        message="Google Play requires that apps target API level 31 or higher.&#xA;">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="ExpiredTargetSdkVersion"
+        message="Google Play requires that apps target API level 31 or higher.&#xA;">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="ExpiredTargetSdkVersion"
+        message="Google Play requires that apps target API level 31 or higher.&#xA;">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="ExpiredTargetSdkVersion"
+        message="Google Play requires that apps target API level 31 or higher.&#xA;">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="KaptUsageInsteadOfKsp"
+        message="This library supports using KSP instead of kapt, which greatly improves performance. Learn more: https://developer.android.com/studio/build/migrate-to-ksp">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.layout.activity_detail` appears to be unused">
+        <location
+            file="..\app\src\main\res\layout\activity_detail.xml"
+            line="2"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.layout.activity_favorite` appears to be unused">
+        <location
+            file="src\main\res\layout\activity_favorite.xml"
+            line="2"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.layout.activity_main` appears to be unused">
+        <location
+            file="..\app\src\main\res\layout\activity_main.xml"
+            line="2"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.menu.activity_main_drawer` appears to be unused">
+        <location
+            file="..\app\src\main\res\menu\activity_main_drawer.xml"
+            line="2"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.layout.app_bar_main` appears to be unused">
+        <location
+            file="..\app\src\main\res\layout\app_bar_main.xml"
+            line="2"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.drawable.baseline_favorite_24` appears to be unused">
+        <location
+            file="..\app\src\main\res\drawable\baseline_favorite_24.xml"
+            line="1"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.drawable.baseline_favorite_24_red` appears to be unused">
+        <location
+            file="..\app\src\main\res\drawable\baseline_favorite_24_red.xml"
+            line="1"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.drawable.baseline_home_24` appears to be unused">
+        <location
+            file="..\app\src\main\res\drawable\baseline_home_24.xml"
+            line="1"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.layout.content_detail_movie` appears to be unused">
+        <location
+            file="..\app\src\main\res\layout\content_detail_movie.xml"
+            line="2"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.layout.content_main` appears to be unused">
+        <location
+            file="..\app\src\main\res\layout\content_main.xml"
+            line="2"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.xml.data_extraction_rules` appears to be unused">
+        <location
+            file="..\app\src\main\res\xml\data_extraction_rules.xml"
+            line="6"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.dimen.activity_horizontal_margin` appears to be unused">
+        <location
+            file="..\app\src\main\res\values\dimens.xml"
+            line="3"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.dimen.activity_vertical_margin` appears to be unused">
+        <location
+            file="..\app\src\main\res\values\dimens.xml"
+            line="4"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.dimen.nav_header_vertical_spacing` appears to be unused">
+        <location
+            file="..\app\src\main\res\values\dimens.xml"
+            line="5"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.dimen.nav_header_height` appears to be unused">
+        <location
+            file="..\app\src\main\res\values\dimens.xml"
+            line="6"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.dimen.fab_margin` appears to be unused">
+        <location
+            file="..\app\src\main\res\values\dimens.xml"
+            line="7"/>
+        <location
+            file="..\app\src\main\res\values-land\dimens.xml"
+            line="2"/>
+        <location
+            file="..\app\src\main\res\values-w1240dp\dimens.xml"
+            line="2"/>
+        <location
+            file="..\app\src\main\res\values-w600dp\dimens.xml"
+            line="2"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.dimen.app_bar_height` appears to be unused">
+        <location
+            file="..\app\src\main\res\values\dimens.xml"
+            line="8"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.dimen.text_margin` appears to be unused">
+        <location
+            file="..\app\src\main\res\values\dimens.xml"
+            line="9"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.layout.fragment_home` appears to be unused">
+        <location
+            file="..\app\src\main\res\layout\fragment_home.xml"
+            line="2"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.layout.fragment_slideshow` appears to be unused">
+        <location
+            file="..\app\src\main\res\layout\fragment_slideshow.xml"
+            line="2"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.drawable.ic_favorite_white` appears to be unused">
+        <location
+            file="..\app\src\main\res\drawable\ic_favorite_white.xml"
+            line="1"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.drawable.ic_menu_camera` appears to be unused">
+        <location
+            file="..\app\src\main\res\drawable\ic_menu_camera.xml"
+            line="1"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.drawable.ic_menu_gallery` appears to be unused">
+        <location
+            file="..\app\src\main\res\drawable\ic_menu_gallery.xml"
+            line="1"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.drawable.ic_menu_slideshow` appears to be unused">
+        <location
+            file="..\app\src\main\res\drawable\ic_menu_slideshow.xml"
+            line="1"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.drawable.ic_not_favorite_white` appears to be unused">
+        <location
+            file="..\app\src\main\res\drawable\ic_not_favorite_white.xml"
+            line="1"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.menu.main` appears to be unused">
+        <location
+            file="..\app\src\main\res\menu\main.xml"
+            line="2"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.navigation.mobile_navigation` appears to be unused">
+        <location
+            file="..\app\src\main\res\navigation\mobile_navigation.xml"
+            line="2"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.layout.nav_header_main` appears to be unused">
+        <location
+            file="..\app\src\main\res\layout\nav_header_main.xml"
+            line="2"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.drawable.side_nav_bar` appears to be unused">
+        <location
+            file="..\app\src\main\res\drawable\side_nav_bar.xml"
+            line="1"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.empty` appears to be unused">
+        <location
+            file="src\main\res\values\strings.xml"
+            line="3"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.navigation_drawer_open` appears to be unused">
+        <location
+            file="..\app\src\main\res\values\strings.xml"
+            line="3"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.navigation_drawer_close` appears to be unused">
+        <location
+            file="..\app\src\main\res\values\strings.xml"
+            line="4"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.nav_header_title` appears to be unused">
+        <location
+            file="..\app\src\main\res\values\strings.xml"
+            line="5"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.nav_header_subtitle` appears to be unused">
+        <location
+            file="..\app\src\main\res\values\strings.xml"
+            line="6"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.nav_header_desc` appears to be unused">
+        <location
+            file="..\app\src\main\res\values\strings.xml"
+            line="7"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.action_settings` appears to be unused">
+        <location
+            file="..\app\src\main\res\values\strings.xml"
+            line="8"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.menu_home` appears to be unused">
+        <location
+            file="..\app\src\main\res\values\strings.xml"
+            line="10"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.menu_gallery` appears to be unused">
+        <location
+            file="..\app\src\main\res\values\strings.xml"
+            line="11"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.menu_slideshow` appears to be unused">
+        <location
+            file="..\app\src\main\res\values\strings.xml"
+            line="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.oops_something_went_wrong` appears to be unused">
+        <location
+            file="..\app\src\main\res\values\strings.xml"
+            line="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.description` appears to be unused">
+        <location
+            file="..\app\src\main\res\values\strings.xml"
+            line="15"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.poster` appears to be unused">
+        <location
+            file="..\app\src\main\res\values\strings.xml"
+            line="16"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.icon_favorite` appears to be unused">
+        <location
+            file="..\app\src\main\res\values\strings.xml"
+            line="17"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.empty_data` appears to be unused">
+        <location
+            file="..\app\src\main\res\values\strings.xml"
+            line="18"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.favorite` appears to be unused">
+        <location
+            file="..\app\src\main\res\values\strings.xml"
+            line="19"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.black_adam` appears to be unused">
+        <location
+            file="..\app\src\main\res\values\strings.xml"
+            line="21"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.yuhuu` appears to be unused">
+        <location
+            file="..\app\src\main\res\values\strings.xml"
+            line="22"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.Theme_AMov_AppBarOverlay` appears to be unused">
+        <location
+            file="..\app\src\main\res\values\themes.xml"
+            line="22"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.Theme_AMov_PopupOverlay` appears to be unused">
+        <location
+            file="..\app\src\main\res\values\themes.xml"
+            line="24"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.layout.view_empty` appears to be unused">
+        <location
+            file="..\app\src\main\res\layout\view_empty.xml"
+            line="2"/>
+    </issue>
+
+</issues>

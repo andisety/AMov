@@ -10,7 +10,7 @@ apply from: '../shared_dependencies.gradle'
 
 android {
     namespace 'com.andi.amov.core'
-    compileSdkVersion 33
+    compileSdk 33
 
     lint {
         baseline = file("lint-baseline.xml")
