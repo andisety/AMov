@@ -9,9 +9,7 @@ apply from: '../shared_dependencies.gradle'
 android {
     namespace 'com.andi.amov.favorite'
     compileSdk 30
-    lint {
-        baseline = file("lint-baseline.xml")
-    }
+
 
     defaultConfig {
         minSdk 24

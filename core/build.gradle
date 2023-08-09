@@ -12,8 +12,8 @@ android {
     namespace 'com.andi.amov.core'
     compileSdk 33
 
-    lint {
-        baseline = file("lint-baseline.xml")
+    lintOptions {
+        baseline file("lint-baseline.xml")
     }
 
     defaultConfig {
